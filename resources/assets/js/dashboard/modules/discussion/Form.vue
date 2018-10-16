@@ -102,7 +102,7 @@ export default {
 
       let tagIDs = []
       let url = 'discussion' + (this.discussion.id ? '/' + this.discussion.id : '')
-      let method = this.discussion.id ? 'patch' : 'post'
+      let method = this.discussion.id ? 'put' : 'post'
 
       for (var i = 0; i < this.tags.length; i++) {
         tagIDs[i] = this.tags[i].id

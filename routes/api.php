@@ -37,7 +37,7 @@ Route::group([
     Route::delete('discussion/{id}', 'DiscussionController@destroy')->middleware(['permission:destroy_discussion']);
     Route::post('/discussion/{id}/status', 'DiscussionController@status')->middleware(['permission:update_discussion']);
 
-    // Tag
+    // Comment
     Route::get('comment', 'CommentController@index')->middleware(['permission:list_comment']);
     Route::get('comment/{id}/edit', 'CommentController@edit')->middleware(['permission:update_comment']);
     Route::put('comment/{id}', 'CommentController@update')->middleware(['permission:update_comment']);
@@ -58,6 +58,7 @@ Route::group([
     Route::delete('link/{id}', 'LinkController@destroy')->middleware(['permission:destroy_link']);
     Route::post('/link/{id}/status', 'LinkController@status')->middleware(['permission:update_link']);
 
+    // Role/Permission
     Route::get('role', 'RoleController@index')->middleware(['permission:list_role']);
     Route::post('role', 'RoleController@store')->middleware(['permission:create_role']);
     Route::get('role/{id}/edit', 'RoleController@edit')->middleware(['permission:update_role']);
@@ -65,6 +66,7 @@ Route::group([
     Route::delete('role/{id}', 'RoleController@destroy')->middleware(['permission:destroy_role']);
     Route::get('permissions', 'PermissionsController@index')->middleware(['permission:update_role_permissions']);
     Route::post('role/{role}/permissions', 'RoleController@updateRolePermissions')->middleware(['permission:update_role_permissions']);
+    Route::get('role/{id}', 'RoleController@edit')->middleware(['permission:update_role']);
 
     Route::get('visitor', 'VisitorController@index')->middleware(['permission:list_visitor']);
 

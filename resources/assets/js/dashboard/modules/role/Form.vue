@@ -48,7 +48,7 @@ export default {
   methods: {
     onSubmit() {
       let url = 'role' + (this.role.id ? '/' + this.role.id : '')
-      let method = this.role.id ? 'patch' : 'post'
+      let method = this.role.id ? 'put' : 'post'
 
       this.$http[method](url, this.role)
         .then((response) => {

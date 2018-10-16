@@ -40,7 +40,7 @@ export default {
   methods: {
     onSubmit() {
       let url = 'tag' + (this.tag.id ? '/' + this.tag.id : '')
-      let method = this.tag.id ? 'patch' : 'post'
+      let method = this.tag.id ? 'put' : 'post'
 
       this.$http[method](url, this.tag)
         .then((response) => {

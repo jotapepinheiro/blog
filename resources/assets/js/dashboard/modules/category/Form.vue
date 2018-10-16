@@ -48,7 +48,7 @@ export default {
   methods: {
     onSubmit() {
       let url = 'category' + (this.category.id ? '/' + this.category.id : '')
-      let method = this.category.id ? 'patch' : 'post'
+      let method = this.category.id ? 'put' : 'post'
 
       this.$http[method](url, this.category)
         .then((response) => {

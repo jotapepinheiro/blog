@@ -82,7 +82,7 @@ export default {
       }
 
       let url = 'link' + (this.link.id ? '/' + this.link.id : '')
-      let method = this.link.id ? 'patch' : 'post'
+      let method = this.link.id ? 'put' : 'post'
 
       this.$http[method](url, this.link)
         .then((response) => {

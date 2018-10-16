@@ -178,7 +178,7 @@ export default {
 
       let tagIDs = []
       let url = 'article' + (this.article.id ? '/' + this.article.id : '')
-      let method = this.article.id ? 'patch' : 'post'
+      let method = this.article.id ? 'put' : 'post'
 
       for (var i = 0; i < this.tags.length; i++) {
         tagIDs[i] = this.tags[i].id
