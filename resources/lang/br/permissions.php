@@ -8,62 +8,62 @@ return [
     */
 
     // User
-    'list_user' => 'List Users',
-    'create_user' => 'Create User',
-    'update_user' => 'Update User',
-    'destroy_user' => 'Delete User',
+    'list_user' => 'Listar Usuários',
+    'create_user' => 'Criar Usuário',
+    'update_user' => 'Atualizar Usuário',
+    'destroy_user' => 'Deletar Usuário',
 
     // Article
-    'list_article' => 'List Articles',
-    'create_article' => 'Create Article',
-    'update_article' => 'Update Article',
-    'destroy_article' => 'Delete Article',
+    'list_article' => 'Listar Artigos',
+    'create_article' => 'Criar Artigo',
+    'update_article' => 'Atualizar Artigo',
+    'destroy_article' => 'Deletar Artigo',
 
     // Discussion
-    'list_discussion' => 'List Discussions',
-    'create_discussion' => 'Create Discussion',
-    'update_discussion' => 'Update Discussion',
-    'destroy_discussion' => 'Delete Discussion',
+    'list_discussion' => 'Listar Discussões',
+    'create_discussion' => 'Criar Discussão',
+    'update_discussion' => 'Atualizar Discussão',
+    'destroy_discussion' => 'Deletar Discussão',
 
     // Comment
-    'list_comment' => 'List Comments',
-    'update_comment' => 'Update Comment',
-    'destroy_comment' => 'Delete Comment',
+    'list_comment' => 'Listar Comentários',
+    'update_comment' => 'Atualizar Comentário',
+    'destroy_comment' => 'Deletar Comentário',
 
     // File
-    'list_file' => 'List Files',
-    'create_file_folder' => 'Create Folder',
-    'upload_file' => 'Upload File',
-    'destroy_file' => 'Delete File',
+    'list_file' => 'Listar Arquivos',
+    'create_file_folder' => 'Criar Pasta',
+    'upload_file' => 'Enviar Arquivo',
+    'destroy_file' => 'Deletar Arquivo',
 
     // Tag
-    'list_tag' => 'List Tags',
-    'create_tag' => 'Create Tag',
-    'update_tag' => 'Update Tag',
-    'destroy_tag' => 'Delete Tag',
+    'list_tag' => 'Listar Tags',
+    'create_tag' => 'Criar Tag',
+    'update_tag' => 'Atualizar Tag',
+    'destroy_tag' => 'Deletar Tag',
 
     // Category
-    'list_category' => 'List Categories',
-    'create_category' => 'Create Category',
-    'update_category' => 'Update Category',
-    'destroy_category' => 'Delete Category',
+    'list_category' => 'Listar Categorias',
+    'create_category' => 'Criar Categoria',
+    'update_category' => 'Atualizar Categoria',
+    'destroy_category' => 'Deletar Categoria',
 
     // Link
-    'list_link' => 'List Links',
-    'create_link' => 'Create Link',
-    'update_link' => 'Update Link',
-    'destroy_link' => 'Delete Link',
+    'list_link' => 'Listar Links',
+    'create_link' => 'Criar Link',
+    'update_link' => 'Atualizar Link',
+    'destroy_link' => 'Deletar Link',
 
     // Role
-    'list_role' => 'List Roles',
-    'create_role' => 'Create Role',
-    'update_role' => 'Update Role',
-    'update_role_permissions' => 'Update Role Permissions',
-    'destroy_role' => 'Delete Role',
+    'list_role' => 'Listar Papeis',
+    'create_role' => 'Criar Papel',
+    'update_role' => 'Atualizar Papel',
+    'update_role_permissions' => 'Atualizar Permissões do Papel',
+    'destroy_role' => 'Deletar Papel',
 
     // Visitor
-    'list_visitor' => 'List Visitors',
+    'list_visitor' => 'Listar Visitantes',
 
     // System
-    'list_system_info' => 'List System Info',
+    'list_system_info' => 'Listar Informacões do Sistema',
 ];

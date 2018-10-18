@@ -22,7 +22,7 @@ export default {
   key: 'Configurações',
   value: 'Valor',
   server: 'Web Server',
-  domain: 'Dominio',
+  domain: 'Domínio',
   version: 'Versão',
   extension: 'Extensão',
   driver: 'Driver',
