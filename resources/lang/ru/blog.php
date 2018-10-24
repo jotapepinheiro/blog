@@ -78,6 +78,7 @@ return [
     'Categories Meta'      => 'Категории для всех статей.',
     'Category Meta'        => 'Все статьи в категории.',
     'Nothing'              => 'Здесь ничего нет...',
+    'Read More'            => 'Read More',
     'Forbidden'            => 'Доступ запрещен.',
     'Discuss Title'        => 'Заголовок',
     'Discuss Tag'          => 'Теги',

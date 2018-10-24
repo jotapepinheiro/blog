@@ -22,7 +22,7 @@
               <th></th>
             </thead>
             <tbody>
-              <tr v-for="token in tokens">
+              <tr v-for="token in tokens" :key="token.id">
                 <!-- Client Name -->
                 <td style="vertical-align: middle;">
                   {{ token.client.name }}
@@ -30,14 +30,14 @@
                 <!-- Scopes -->
                 <td style="vertical-align: middle;">
                   <span v-if="token.scopes.length > 0">
-                                        {{ token.scopes.join(', ') }}
-                                    </span>
+                    {{ token.scopes.join(', ') }}
+                  </span>
                 </td>
                 <!-- Revoke Button -->
                 <td style="vertical-align: middle;">
                   <a class="action-link text-danger" @click="revoke(token)">
-                                        Revoke
-                                    </a>
+                    Revoke
+                  </a>
                 </td>
               </tr>
             </tbody>

@@ -78,6 +78,7 @@ return [
     'Categories Meta'      => 'Categories for all articles.',
     'Category Meta'        => 'All articles in the category.',
     'Nothing'              => 'Nothing in here...',
+    'Read More'            => 'Read More',
     'Forbidden'            => 'Access denied.',
     'Discuss Title'        => 'Title',
     'Discuss Tag'          => 'Tag',

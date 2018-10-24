@@ -54,6 +54,8 @@ mix.js('resources/assets/js/app.js', 'public/js')
   .js('resources/assets/js/home.js', 'public/js')
   .sass('resources/assets/sass/home.scss', 'public/css')
 
-if (mix.inProduction()) {
-  mix.version()
-}
+mix.version()
+
+// if (mix.inProduction()) {
+//   mix.version()
+// }

@@ -107,7 +107,7 @@ $factory->define(App\Visitor::class, function (Faker\Generator $faker) {
     return [
         'article_id' => $article_id,
         'ip'         => $faker->ipv4,
-        'country'    => 'CN',
+        'country'    => 'BR',
         'clicks'     => $num
     ];
 });

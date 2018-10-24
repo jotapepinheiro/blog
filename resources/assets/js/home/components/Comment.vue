@@ -6,7 +6,7 @@
       </div>
       <div :class="contentWrapperClass">
         <div :class="nullClass" v-if="comments.length == 0">{{ nullText }}</div>
-        <div class="media" v-for="(comment, index) in comments" v-else>
+        <div class="media" v-for="(comment, index) in comments" :key="comment.id" v-else>
           <div class="media-left mr-3">
             <a :href="'/user/' + comment.username">
               <img class="media-object rounded-circle" :src="comment.avatar">
@@ -236,7 +236,7 @@ export default {
         callbacks: {
           onPasteReceived(file) {
 
-            console.log('success')
+            //console.log('success')
             let promise = new FineUploader.Promise()
 
             if (file == null || typeof file.type == 'undefined' || file.type.indexOf('image/')) {

@@ -78,6 +78,7 @@ return [
     'Categories Meta'      => '文章所有分类',
     'Category Meta'        => '分类下所有文章',
     'Nothing'              => '╮(╯_╰)╭',
+    'Read More'            => 'Read More',
     'Forbidden'            => '此内容被禁止显示!!!',
     'Discuss Title'        => '标题',
     'Discuss Tag'          => '标签',

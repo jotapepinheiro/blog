@@ -32,7 +32,7 @@
                             <i class="fas fa-clock"></i>{{ $article->published_at->diffForHumans() }}&nbsp;,&nbsp;
                             <i class="fas fa-eye"></i>{{ $article->view_count }}
                             <a href="{{ url($article->slug) }}" class="float-right">
-                                Read More <i class="fas fa-chevron-right"></i>
+                                {{ lang('Read More') }} <i class="fas fa-chevron-right"></i>
                             </a>
                         </div>
                     </div>
